@@ -34,3 +34,21 @@
 | `NodeList` | Merupakan array/collection yang berisikan Node |
 | `Attr` | Atau attribute, merupakan representasi object attribute dalam element |
 | `NamedNodeMap` | Merupakan collection yang berisikan Attr dalam bentuk Map |
+
+
+# Document
+## Document
+- Document merupakan representasi object dari halaman web
+- Dalam satu halaman web, terdapat satu document, dan kita tidak perlu membuatnya secara manual, karena otomatis akan ada di browser
+- Untuk mengakses Document, kita bisa gunakan object document
+- `https://developer.mozilla.org/en-US/docs/Web/API/Document`
+
+
+## Document Object
+- Document secara otomatis dibuat dalam browser ketika membuka halaman web, sehingga kita tidak perlu membuat objek Document secara manual
+- Kita bisa langsung menggunakan kata kunci document
+
+
+contoh di file :
+- `document.html`
+
