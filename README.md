@@ -79,9 +79,16 @@ contoh di file :
 - `https://developer.mozilla.org/en-US/docs/Web/API/Node#properties`
 
 
+## Node Method
+- Node memiliki banyak sekali method
+- Method di Node bisa digunakan untuk memanipulasi data Node di dalam Node tersebut, misal menambah/menghapus Node children
+- `https://developer.mozilla.org/en-US/docs/Web/API/Node#properties`
+
+
 contoh di file :
 - `node.html`
 - `node-props.html`
+- `node-method.html`
 
 
 
