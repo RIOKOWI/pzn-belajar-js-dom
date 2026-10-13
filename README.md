@@ -54,9 +54,14 @@
 - Property dalam Document bisa kita gunakan untuk melihat semua data yang terdapat dalam document halaman web
 - `https://developer.mozilla.org/en-US/docs/Web/API/Document#properties`
 
+## Document Method
+- Document memiliki banyak sekali method
+- Banyak method yang terdapat di document digunakan untuk memanipulasi data DOM, misal membuat Node, Element, Attribute atau mengambil dan menyeleksi Node di dalam document
+- `https://developer.mozilla.org/en-US/docs/Web/API/Document#methods`
 
 
 contoh di file :
 - `document.html`
 - `document-property.html`
+- `document-method.html`
 
