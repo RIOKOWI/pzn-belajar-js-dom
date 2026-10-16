@@ -107,8 +107,14 @@ contoh di file :
 - `https://developer.mozilla.org/en-US/docs/Web/API/Element#methods`
 
 
+## Membuat Element
+- Sebelumnya kita hanya mengambil element menggunakan id, artinya kita perlu buat dulu element nya di HTML
+- Kita juga bisa membuat object element baru, dan menambahkannya ke halaman web
+- Kita bisa menggunakan method createElement(tag) pada Document
+- `https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement`
 
 
 contoh di file :
 - `element.html`
 - `element-property.html`
+- `create-element.html`
