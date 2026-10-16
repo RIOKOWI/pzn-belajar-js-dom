@@ -96,5 +96,13 @@ contoh di file :
 - Element merupakan Node yang berbentuk element, biasanya adalah element HTML, misal <html>, <head>, <body>, <div>, <table>, dan lain-lain
 - `https://developer.mozilla.org/en-US/docs/Web/API/Element`
 
+## Element Property
+- Element memiliki banyak sekali property
+- Dan karena Element adalah turunan dari Node, semua property Node pun bisa digunakan di Element
+- `https://developer.mozilla.org/en-US/docs/Web/API/Element#properties`
+
+
+
 contoh di file :
 - `element.html`
+- `element-property.html`
