@@ -118,3 +118,12 @@ contoh di file :
 - `element.html`
 - `element-property.html`
 - `create-element.html`
+
+# NodeList
+## NodeList
+- NodeList adalah kumpulan dari Node
+- Biasanya NodeList digunakan ketika kita menyeleksi banyak Node sekaligus, misal ketika kita ingin mengambil semua children di Node misalnya
+- `https://developer.mozilla.org/en-US/docs/Web/API/NodeList`
+
+contoh di file :
+- `node-list.html`
