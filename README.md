@@ -125,5 +125,14 @@ contoh di file :
 - Biasanya NodeList digunakan ketika kita menyeleksi banyak Node sekaligus, misal ketika kita ingin mengambil semua children di Node misalnya
 - `https://developer.mozilla.org/en-US/docs/Web/API/NodeList`
 
+## Live vs Static NodeList
+- NodeList memiliki 2 tipe, yaitu Live dan Static
+- Live artinya perubahan yang terjadi pada NodeList nya, akan merubah semua NodeList yang sama
+- Static artinya perubahan yang terjadi pada NodeList nya, tidak akan merubah semua NodeList yang sama
+- Saat kita menggunakan element.childNodes, NodeList tersebut bersifat Live
+- Saat kita menggunakan document.querySelectorAll(), NodeList tersebut bersifat Static
+
+
 contoh di file :
 - `node-list.html`
+- `live-nodelist.html`
