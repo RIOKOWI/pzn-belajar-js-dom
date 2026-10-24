@@ -136,3 +136,4 @@ contoh di file :
 contoh di file :
 - `node-list.html`
 - `live-nodelist.html`
+- `static-nodelist.html`

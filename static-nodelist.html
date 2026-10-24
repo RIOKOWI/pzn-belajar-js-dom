@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul id="menu1">
+        <li id="bedal">llll</li>
+        <li id="bedil">pppp</li>
+        <li id="bedul">rrrr</li>
+    </ul>
+
+    <script>
+        // node static
+        const list = document.querySelectorAll("li"); // querySelectorAll == sifatnya static
+
+        const menu1 = document.getElementById("menu1");
+        menu1.appendChild(document.createElement("li"));
+        menu1.appendChild(document.createElement("li"));
+        
+        console.info(list);
+        // jadi jika di tambahkan dua data li di log masih dihitung nya 3 tidak menjadi 5 karena static bukan live
+    </script>
+</body>
+</html>
