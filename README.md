@@ -132,8 +132,15 @@ contoh di file :
 - Saat kita menggunakan element.childNodes, NodeList tersebut bersifat Live
 - Saat kita menggunakan document.querySelectorAll(), NodeList tersebut bersifat Static
 
-
 contoh di file :
 - `node-list.html`
 - `live-nodelist.html`
 - `static-nodelist.html`
+
+# Attr
+## Attr
+- Attr atau attribute merupakan representasi dari attribute sebuah element, atau singkatnya key-value, key nya adalah nama attribute, dan value nya adalah value attribute
+- `https://developer.mozilla.org/en-US/docs/Web/API/Attr`
+
+contoh di file :
+- `attr.html`
