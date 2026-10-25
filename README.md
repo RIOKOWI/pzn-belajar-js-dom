@@ -142,5 +142,13 @@ contoh di file :
 - Attr atau attribute merupakan representasi dari attribute sebuah element, atau singkatnya key-value, key nya adalah nama attribute, dan value nya adalah value attribute
 - `https://developer.mozilla.org/en-US/docs/Web/API/Attr`
 
+## Attr Value
+- Kadang kebanyakan programmer ingin langsung mendapatkan value Attr 
+- Jarang sekali menggunakan object Attr nya
+- Untuk mendapatkan value secara langsung, kita bisa menggunakan method getAttribute(name) di Element
+
+
+
 contoh di file :
 - `attr.html`
+- `attr-value.html`
