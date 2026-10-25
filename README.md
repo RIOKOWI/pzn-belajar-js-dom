@@ -147,8 +147,12 @@ contoh di file :
 - Jarang sekali menggunakan object Attr nya
 - Untuk mendapatkan value secara langsung, kita bisa menggunakan method getAttribute(name) di Element
 
-
+## Membuat Attr
+- Untuk membuat Attr, kita bisa menggunakan document.createAttribute(name)
+- Lalu untuk menambahkannya ke Element, kita bisa gunakan element.setAttributeNode(attr)
+- Atau kita juga bisa langsung membuat Attr langsung dengan name dan value nya menggunakan element.setAttribute(name, value)
 
 contoh di file :
 - `attr.html`
 - `attr-value.html`
+- `create-attr.html`
