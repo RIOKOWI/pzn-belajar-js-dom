@@ -166,3 +166,12 @@ contoh di file :
 contoh di file :
 - `node-map.html`
 
+# Text Node
+## Text Node
+- Saat kita membuat HTML, kadang kita membuat teks tanpa tag
+- Saat halaman web tersebut direpresentasikan dalam DOM, text tanpa tag bukanlah merupakan Element, melainkan Node
+- Lebih tepatnya adalah Text Node
+- `https://developer.mozilla.org/en-US/docs/Web/API/Text`
+
+contoh di file :
+- `text-node.html`
