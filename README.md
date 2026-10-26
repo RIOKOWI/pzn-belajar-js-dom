@@ -173,5 +173,10 @@ contoh di file :
 - Lebih tepatnya adalah Text Node
 - `https://developer.mozilla.org/en-US/docs/Web/API/Text`
 
+## Membuat Text Node
+- Kita juga bisa membuat Text Node menggunakan method document.createTextNode(string)
+- Hasilnya berupa Text yang bisa kita tambahkan ke Node lain
+
 contoh di file :
 - `text-node.html`
+- `create-text-node.html`

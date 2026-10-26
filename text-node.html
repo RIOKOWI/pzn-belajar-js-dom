@@ -6,11 +6,11 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- dibawah namanya text node -->
     Rio Achyar
+    <!-- diatas namanya text node/text tanpa element -->
     <script>
-        const textNode = document.body.firstChild;
-        console.info(textNode)
+        const text = document.body.firstChild // ambil node yang paling pertama
+        console.info(text.wholeText)
     </script>
 </body>
 </html>
