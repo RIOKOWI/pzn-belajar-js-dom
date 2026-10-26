@@ -156,3 +156,13 @@ contoh di file :
 - `attr.html`
 - `attr-value.html`
 - `create-attr.html`
+
+# NamedNodeMap
+## NamedNodeMap
+- NamedNodeMap merupakan kumpulan dari Attr
+- Mirip seperti NodeList, namun isinya adalah Attr
+- `https://developer.mozilla.org/en-US/docs/Web/API/NamedNodeMap`
+
+contoh di file :
+- `node-map.html`
+
