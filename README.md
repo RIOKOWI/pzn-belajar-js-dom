@@ -220,3 +220,19 @@ contoh di file :
 
 contoh di file :
 - `event.html`
+
+# Style
+## Style
+- DOM juga bisa digunakan untuk memanipulasi attribute style pada element dengan lebih mudah
+- Kita tidak perlu menggunakan setAttribute(“style”, “value”) setiap ingin mengubah style sebuah element
+- Kita bisa langsung gunakan element.style.name = value
+- `https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/style`
+
+
+## Nama Style
+- Saat kita mengubah sebuah style, penamaan style menjadi berubah
+- Pada style css, rata-rata menggunakan format lowercase dan -, misal background-color
+- Sedangkan pada DOM Style, menggunakan format pascalCase, misal backgroundColor
+
+contoh di file :
+- `style.html`
