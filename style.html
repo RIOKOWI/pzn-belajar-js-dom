@@ -18,9 +18,9 @@
         const canvas = document.getElementById("canvas"); // ambil id default warna
         const colors = document.querySelectorAll("input"); // ambil seluruh element input
 
-        for (let color of colors) { // perulangan untuk button
+        for (let color of colors) { // perulangan untuk element input
             color.onclick = function () {
-                canvas.style.backgroundColor = color.getAttribute("value"); // implemen style dom sesuai dengan warna dari value
+                canvas.style.backgroundColor = color.getAttribute("value"); // implemen style dom sesuai dengan warna dari input value
             }
         }
     </script>

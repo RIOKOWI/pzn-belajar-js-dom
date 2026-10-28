@@ -236,3 +236,11 @@ contoh di file :
 
 contoh di file :
 - `style.html`
+
+# InnerText dan InnerHTML
+## InnerText dan InnerHTML
+- Selain textContent, terdapat property lain bernama innerText untuk mendapatkan isi text sebuah element
+- Tujuan nya sama, untuk mengambil atau mengubah isi text konten sebuah element, namun ada perbedaannya
+- textContent akan mengembalikan semua isi dari konten text sebuah element
+- innerText bisa tahu, bagian text mana yang ditampilkan, dan dia hanya akan mengambil text yang ditampilkan saja
+
