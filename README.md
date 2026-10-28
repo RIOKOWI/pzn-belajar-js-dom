@@ -180,3 +180,20 @@ contoh di file :
 contoh di file :
 - `text-node.html`
 - `create-text-node.html`
+
+# Event Handler
+## Event Handler
+- Node memiliki kemampuan bereaksi terhadap suatu kejadian, misal kejadian di klik, mouse di atas node tersebut, dan lain-lain
+- Ada banyak sekali jenis kejadian yang bisa kita buatkan aksinya ketika kejadian tersebut terjadi, atau dikenal dengan nama Event Handler
+- Ada dua cara kita menambahkan Event Handler ke Node, menggunakan Event Target atau Global Event Handler
+- `https://developer.mozilla.org/en-US/docs/Web/API/EventTarget`
+- `https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers`
+
+
+## Event Target
+- Event Target merupakan parent class dari Node, artinya semua Node memiliki kemampuan dari Event Target
+- Pada Event Target, kita bisa menggunakan method addEventListener(type, callback) untuk menambahkan Event Handler
+- `https://developer.mozilla.org/en-US/docs/Web/API/EventTarget`
+
+contoh di file :
+- `text-node.html`

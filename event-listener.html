@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- target -->
+    <input type="button" id="clickMe" value="Click Me!"> 
+
+
+    <script>
+        const clickMe = document.getElementById("clickMe"); // ambil id target/button
+        clickMe.addEventListener("click", function () { // membuat event listener
+            clickMe.setAttribute("value", "Loro Cok!!!!!"); // ubah value jika button di klik
+        })
+    </script>
+</body>
+</html>
