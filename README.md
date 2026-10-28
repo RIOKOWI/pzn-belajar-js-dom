@@ -195,5 +195,12 @@ contoh di file :
 - Pada Event Target, kita bisa menggunakan method addEventListener(type, callback) untuk menambahkan Event Handler
 - `https://developer.mozilla.org/en-US/docs/Web/API/EventTarget`
 
+## Global Event Handler
+- Selain menggunakan Event Target, untuk menambahkan Event Handler, kita juga bisa menggunakan Global Event Handler
+- Global Event Handler bukanlah sebuah super class, hanya kontrak yang bisa kita gunakan untuk menambah event handler sesuai dengan type event nya
+- `https://developer.mozilla.org/en-US/docs/Web/API/GlobalEventHandlers`
+
+* bedanya addevent listener biasa dan global event handler adalah yang biasa bisa menambahkan listener lebih dari 1
+
 contoh di file :
-- `text-node.html`
+- `event-listener.html`
