@@ -204,3 +204,19 @@ contoh di file :
 
 contoh di file :
 - `event-listener.html`
+
+# Event
+## Jenis Event
+- DOM sendiri memiliki banyak sekali jenis event, tidak hanya click
+- Jenis event yang bisa kita gunakan biasanya disesuaikan dengan target event nya, misal pada element video, ada event play, pause, sedangkan pada element button, tidak ada event play atau pause
+- Untuk lebih detailnya, ada apa saja jenis event nya, kita bisa lihat pada halaman berikut :
+- `https://developer.mozilla.org/en-US/docs/Web/Events`
+
+## Event
+- Saat kita membuat callback function untuk Event Handler, kita juga bisa menerima data event yang memicu event itu terjadi
+- Data Event tersebut bisa berbeda-beda, tergantung jenis Event nya, contohnya untuk Click, data event nya berupa Mouse Event (yang berisi lokasi mouse dan lain-lain)
+- Kita bisa lihat detail dari data tiap event di halaman documentation nya :
+- `https://developer.mozilla.org/en-US/docs/Web/API/Event`
+
+contoh di file :
+- `event.html`
