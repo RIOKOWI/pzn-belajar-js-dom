@@ -248,6 +248,11 @@ contoh di file :
 - Jika Text Content dan Inner Text hanya mengambil text saja, Inner HTML akan mengambil seluruh element HTML nya sebagai text
 - Ini juga cocok jika kita ingin mengubah isi dari element menggunakan text yang berisi tag HTML
 
+## Mengubah Element dengan Inner HTML
+- Salah satu kemampuan dari innerHTML adalah, kita bisa mengubah isi dari children sebuah element hanya dengan string 
+- Tag yang terdapat di dalam String secara otomatis akan menjadi child element
+
+
 
 contoh di file :
 - `text-inner-content.html`

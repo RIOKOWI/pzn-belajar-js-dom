@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="content">
+        <script>
+            console.info("Halo cok")
+        </script>
+        <b>Rio</b> Kowi <i>Achyar </i>
+    </p>
+    <script>
+        const content = document.getElementById("content");
+        // content.textContent = "<h1>learn</h1><p>gaaaaaaawww</p>" // langsung di render mentah mentah
+        content.innerHTML = "<h1>learn</h1><p>gaaaaaaawww</p>" // di render menjadi html
+    </script>
+</body>
+</html>
