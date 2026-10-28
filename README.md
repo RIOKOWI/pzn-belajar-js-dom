@@ -244,3 +244,10 @@ contoh di file :
 - textContent akan mengembalikan semua isi dari konten text sebuah element
 - innerText bisa tahu, bagian text mana yang ditampilkan, dan dia hanya akan mengambil text yang ditampilkan saja
 
+## Inner HTML
+- Jika Text Content dan Inner Text hanya mengambil text saja, Inner HTML akan mengambil seluruh element HTML nya sebagai text
+- Ini juga cocok jika kita ingin mengubah isi dari element menggunakan text yang berisi tag HTML
+
+
+contoh di file :
+- `text-inner-content.html`
