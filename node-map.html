@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQE9eKIbaIAZeNYxQovXQMUZDf7i5hCUktACzphrdRkwQ&s=10" alt="grind">
+    <script>
+        const logo = document.getElementById("logo");
+        const attributes = logo.attributes // ambil node map attributnya
+
+        for (let attribute of attributes) {
+            console.info(`${attribute.name} : ${attribute.value}`); // menampilkan detail key & value dari node map
+        }
+    </script>
+</body>
+</html>

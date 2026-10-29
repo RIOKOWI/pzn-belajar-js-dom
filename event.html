@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="text">Tekan Kotak</h1>
+    <div id="canvas" style="height: 500px; width: 500px; background-color: red;"></div>
+    <script>
+        const canvas = document.getElementById("canvas");
+        const text = document.getElementById("text");
+
+        canvas.onclick = function (event) {
+            text.textContent = `You on (${event.x}, ${event.y})`; // melihat koordinat x & y yang di klik
+        }
+    </script>
+</body>
+</html>
