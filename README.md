@@ -267,3 +267,28 @@ contoh di file :
 
 contoh di file :
 - `wiindow.html`
+
+# Query Selector
+## Query Selector
+- Sebelumnya kita sudah menggunakan method querySelectorAll() pada Document, sekarang kita akan bahas lebih lengkap tentang Query Selector
+- Query Selector merupakan method untuk menseleksi node sesuai dengan pola yang kita ingin cari
+- Terdapat dua method untuk Query Selector :
+  - Document.querySelector(pola) digunakan menyeleksi node pertama yang sesuai dengan pola
+  - Document.querySelectorAll(pola) digunakan untuk menyeleksi semua node yang sesuai dengan pola
+
+
+## Pola Query Selector
+- Pola untuk Query Selector adalah menggunakan CSS Selector
+- Penggunakan Pola nya mirip ketika kita membuat Selector di CSS
+- Jika belum tahu tentang CSS Selector, disarankan untuk dipelajari ulang tentang materi CSS
+- `https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors`
+
+## Universal Selector
+- Universal Selector merupakan selector untuk menyeleksi semua element
+- Kita bisa menggunakan karakter *
+- `https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors`
+
+
+
+contoh di file :
+- `wiindow.html`

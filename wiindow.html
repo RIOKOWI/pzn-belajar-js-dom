@@ -11,8 +11,10 @@
         const content = document.getElementById("content");
         const height = window.screen.height;
         const width = window.screen.width;
+        const url = window.location;
 
-        content.textContent = `Your Screen is (height : ${height} && width : ${width})`;
+        content.textContent = `Your Screen is (height : ${height} && width : ${width}). Loc : ${url}`;
+        
     </script>
 </body>
 </html>
