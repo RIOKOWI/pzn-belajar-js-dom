@@ -368,6 +368,12 @@ contoh di file :
 - `https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement`
 - `https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement`
 
+## Akses Form Via Name
+- Salah satu kelebihan Form adalah, kita bisa mengakses form hanya dengan menggunakan form name
+- Kita bisa gunakan document.forms[name]
+- Atau jika kita ingin mengakses input nya, kita juga bisa menggunakan name nya document.forms[name][inputName]
+
 
 contoh di file :
 - `form.html`
+- `form2.html`

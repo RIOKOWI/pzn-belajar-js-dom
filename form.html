@@ -32,7 +32,7 @@
             commentItem.textContent = `${comment} - ${from}`; // ambil value dari variable comment dan from untuk di tampilkan di element baru
             commentList.appendChild(commentItem); // masukan <p> ke element <div>
 
-            document.forms['commentForm'].reset();
+            document.forms['commentForm'].reset(); // akses form via name
             
         }
     </script>
