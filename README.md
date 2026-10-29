@@ -310,6 +310,10 @@ contoh di file :
 - Atau bisa juga untuk tag tertentu, misal menggunakan selector div[attribute]
 - `https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors`
 
+## Operator di Attribute Selector
+- Kita juga bisa menggunakan operator pada attribut selector
+- Misal [attribute=value], [attribute^=value] dan lain-lain
+- `https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors#syntax`
 
 
 contoh di file :
@@ -318,3 +322,4 @@ contoh di file :
 - `class-selector.html`
 - `id-selector.html`
 - `attribute-selector.html`
+- `operator-attr.html`
