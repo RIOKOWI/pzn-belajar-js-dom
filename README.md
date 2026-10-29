@@ -348,3 +348,14 @@ contoh di file :
 
 contoh di file :
 - `node-type.html`
+
+# HTML Element
+## HTML Element
+- Element merupakan representasi dalam DOM
+- Namun, saat menggunakan HTML, implementasi detail nya sebenarnya adalah HTML Element, yaitu turunan dari Element
+- HTML Element memiliki banyak sekali property dan method tambahan selain dari Element DOM
+- Kebanyakan HTML Element memiliki property yang sesuai dengan attribute yang ada pada tag html tersebut, oleh karena itu, kadang kita tidak butuh lagi menggunakan method setAttribute dan getAttribute
+- `https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement`
+
+contoh di file :
+- `html-element.html`
