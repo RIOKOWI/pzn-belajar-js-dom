@@ -288,7 +288,5 @@ contoh di file :
 - Kita bisa menggunakan karakter *
 - `https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors`
 
-
-
 contoh di file :
-- `wiindow.html`
+- `universal-selector.html`
