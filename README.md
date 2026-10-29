@@ -304,9 +304,17 @@ contoh di file :
 - Untuk menggunakannya, kita bisa gunakan nama id diawali dengan karakter #
 - `https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors`
 
+## Attribute Selector
+- Attribute Selector merupakan selector yang bisa digunakan untuk menyeleksi element berdasarkan attribute nya
+- Kita bisa menggunakan selector [attribute]
+- Atau bisa juga untuk tag tertentu, misal menggunakan selector div[attribute]
+- `https://developer.mozilla.org/en-US/docs/Web/CSS/Attribute_selectors`
+
+
 
 contoh di file :
 - `universal-selector.html`
 - `type-selector.html`
 - `class-selector.html`
 - `id-selector.html`
+- `attribute-selector.html`
