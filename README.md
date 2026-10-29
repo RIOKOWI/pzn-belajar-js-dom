@@ -298,6 +298,15 @@ contoh di file :
 - Untuk menggunakannya, kita bisa sebutkan nama class nya diawali dengan titik
 - `https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors`
 
+
+## ID Selector
+- ID Selector merupakan selector yang digunakan untuk menyeleksi id yang sesuai selector
+- Untuk menggunakannya, kita bisa gunakan nama id diawali dengan karakter #
+- `https://developer.mozilla.org/en-US/docs/Web/CSS/ID_selectors`
+
+
 contoh di file :
 - `universal-selector.html`
 - `type-selector.html`
+- `class-selector.html`
+- `id-selector.html`
