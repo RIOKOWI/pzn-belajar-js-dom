@@ -293,7 +293,11 @@ contoh di file :
 - Untuk menggunakannya, kita bisa langsung sebutkan nama tag nya
 - `https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors`
 
-
+## Class Selector
+- Class Selector merupakan selector untuk menyeleksi semua element yang memiliki class yang sesuai selector
+- Untuk menggunakannya, kita bisa sebutkan nama class nya diawali dengan titik
+- `https://developer.mozilla.org/en-US/docs/Web/CSS/Class_selectors`
 
 contoh di file :
 - `universal-selector.html`
+- `type-selector.html`
