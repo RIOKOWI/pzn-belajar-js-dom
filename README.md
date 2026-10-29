@@ -359,3 +359,15 @@ contoh di file :
 
 contoh di file :
 - `html-element.html`
+
+# HTML Form Element
+## HTML Form Element
+- Form adalah salah satu element yang memiliki banyak sekali fitur diluar dari Element DOM
+- Hal ini karena penggunaan Form memang lebih kompleks dibandingkan element HTML lainnya
+- Ada banyak sekali property, method dan juga event yang terdapat pada HTML form element atau input element
+- `https://developer.mozilla.org/en-US/docs/Web/API/HTMLFormElement`
+- `https://developer.mozilla.org/en-US/docs/Web/API/HTMLInputElement`
+
+
+contoh di file :
+- `form.html`
