@@ -288,5 +288,12 @@ contoh di file :
 - Kita bisa menggunakan karakter *
 - `https://developer.mozilla.org/en-US/docs/Web/CSS/Universal_selectors`
 
+## Type Selector
+- Type Selector adalah selector yang digunakan untuk menyeleksi  tag type HTML yang kita pilih
+- Untuk menggunakannya, kita bisa langsung sebutkan nama tag nya
+- `https://developer.mozilla.org/en-US/docs/Web/CSS/Type_selectors`
+
+
+
 contoh di file :
 - `universal-selector.html`
