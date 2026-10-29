@@ -373,7 +373,15 @@ contoh di file :
 - Kita bisa gunakan document.forms[name]
 - Atau jika kita ingin mengakses input nya, kita juga bisa menggunakan name nya document.forms[name][inputName]
 
-
 contoh di file :
 - `form.html`
 - `form2.html`
+
+# HTML Table Element
+## HTML Table Element
+- Salah satu HTML Element yang kompleks selain Form adalah Table
+- HTML Table Element juga memiliki banyak sekali property, method dan event yang khusus
+- `https://developer.mozilla.org/en-US/docs/Web/API/HTMLTableElement`
+
+contoh di file :
+- `table-element.html`
